@@ -2,7 +2,6 @@ const calculator = () => {
     const calcSquare = document.querySelector('.calc-square')
     const calcCount = document.querySelector('.calc-count')
     const calcDay = document.querySelector('.calc-day')
-    console.log("work")
     const numberEnable = (e) => {
         e.target.value = e.target.value.replace(/\D+/, "")  
     }

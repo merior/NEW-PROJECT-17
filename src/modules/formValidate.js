@@ -4,7 +4,6 @@ const formValidate = () => {
     const heroFormTel = document.querySelectorAll('[type=tel]')
     const formMessage = document.querySelector('[placeholder="Ваше сообщение"]')
 
-    console.log("work")
     heroFormName.forEach(heroFormName =>
         heroFormName.addEventListener('input', (e) => {
             e.target.value = e.target.value.replace(/[^а-яА-Я\-\s]/g, "") 
